@@ -1,0 +1,61 @@
+Create a confirmation screen UI for a government validation system.
+
+This screen appears when the user decides to accept or reject an application.
+
+USER CONTEXT
+User fears making mistakes.
+This screen must prevent errors and provide clarity.
+
+GOAL
+- Confirm critical decision
+- Avoid accidental actions
+- Provide reassurance
+
+VISUAL STYLE
+- Minimalist
+- Centered layout
+- High contrast
+- Clear typography
+
+LAYOUT STRUCTURE (CENTERED CARD)
+
+MAIN CARD
+
+TITLE (large):
+- "Confirmar acción"
+
+SUBTITLE:
+- "Estás a punto de cambiar el estatus de la solicitud"
+
+DETAILS:
+- Nombre del aspirante
+- Folio
+- Estatus actual
+- Nuevo estatus (highlighted)
+
+CONDITIONAL FIELD (ONLY FOR REJECTION)
+- Textarea:
+  Label: "Motivo de rechazo"
+  Placeholder: "Describe brevemente la razón..."
+
+ACTIONS
+
+- Primary button:
+  - "Confirmar"
+  - Maroon (or red if rejecting)
+
+- Secondary button:
+  - "Cancelar"
+  - Gray outline
+
+OPTIONAL UX DETAIL
+- Add warning message:
+  "Esta acción no se puede deshacer"
+
+UX PRINCIPLES
+- Error prevention
+- Clear decision making
+- Minimal distraction
+- Focus on one action
+
+The design should feel secure, serious, and clear, avoiding user mistakes.

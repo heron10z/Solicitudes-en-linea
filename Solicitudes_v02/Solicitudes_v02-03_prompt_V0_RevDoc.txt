@@ -1,0 +1,63 @@
+Create a document review screen UI for a government validation system.
+
+This screen is used to inspect applicant documents before making a decision.
+
+USER CONTEXT
+User is not highly tech-savvy.
+The interface must feel like reviewing a physical file folder.
+
+GOAL
+- View documents clearly
+- Navigate easily between documents
+- Avoid confusion
+
+VISUAL STYLE
+- Clean, white interface
+- Minimal distractions
+- Maroon accents only where needed
+- Large readable text
+
+HEADER
+- Same as previous screens (consistency)
+- Breadcrumb:
+  "Gestión de Solicitudes > Detalle > Documentos"
+
+LAYOUT STRUCTURE (SPLIT VIEW)
+
+LEFT PANEL (DOCUMENT LIST)
+- Vertical list of documents:
+  - INE
+  - CURP
+  - Comprobante de domicilio
+  - Certificados
+
+Each item:
+- Name
+- Status label (Validado / Pendiente / Rechazado)
+- Highlight selected document
+
+RIGHT PANEL (DOCUMENT VIEWER)
+- Large preview area
+- Placeholder for PDF/image
+- Controls:
+  - Zoom in/out
+  - Scroll
+
+Below viewer:
+- Small info:
+  - Nombre del documento
+  - Fecha de carga
+
+BOTTOM ACTION BAR
+
+- Button: "Documento correcto" (maroon)
+- Button: "Marcar como incorrecto" (outlined red)
+- Button: "Volver al detalle" (secondary)
+
+UX PRINCIPLES
+- Reduce cognitive load
+- Simulate real-world document review
+- Clear actions
+- No icons unless absolutely necessary
+
+The design should feel calm, clear, and focused on document validation.

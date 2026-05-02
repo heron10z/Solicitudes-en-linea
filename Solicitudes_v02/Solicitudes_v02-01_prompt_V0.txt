@@ -1,0 +1,97 @@
+Create a professional web dashboard UI for a government system called:
+
+“Sistema de Validación de Solicitudes de Educadores Comunitarios”
+
+This interface is used by administrative staff to validate applications. 
+The design must prioritize clarity, low cognitive load, and a simple linear workflow:
+List → Select → Review → Decide.
+
+USER PROFILE
+The user is a 45-year-old government validator with low-to-moderate digital skills.
+Avoid complex icons, reduce steps, and prioritize clarity and readability.
+
+VISUAL STYLE (Mexican Government Identity)
+- Clean, minimalist design
+- High contrast
+- Generous white space
+- Primary color: institutional maroon (guinda)
+- Secondary colors: gold and neutral gray
+- Typography: Montserrat or Open Sans
+- Titles: 18–20px bold
+- Body text: 14–16px regular
+
+HEADER
+- White background
+- Top-left: official government logo (use a placeholder for "Firma institucional")
+- Title: "Gestión de Solicitudes"
+- Top-right: user profile with icon and name "Roberto García"
+
+STATE AND SCHOOL CYCLE (VERY IMPORTANT - above dashboard cards)
+- Show a small horizontal container:
+  - Text field (read-only): "Estado: Zacatecas"
+  - Dropdown: "Ciclo Escolar"
+  - Default selected: "2025-2026"
+
+STATUS SUMMARY CARDS (horizontal layout)
+Create 5 cards with rounded borders and clear numbers:
+
+- En espera → light gray border, gray number
+- Notificadas → maroon border, maroon number
+- Validadas → blue border, blue number
+- Aceptadas → green border, green number
+- Rechazadas → red border, red number
+
+Cards must:
+- Have large numbers
+- Be clickable (act as filters)
+- Have subtle shadows
+- Be visually clean
+
+FILTER SECTION
+A clean container with inputs:
+
+- Input: Folio
+- Input: Nombre
+- Input: CURP
+- Dropdown: Estatus
+
+Primary button:
+- Label: "Buscar"
+- Background: maroon
+- White text
+- Rounded corners
+
+REQUEST TABLE (MAIN CONTENT)
+
+Design:
+- Spacious rows (high padding)
+- Clean layout
+- Easy to scan
+
+Columns:
+- Folio (format: 4 digits year + 6 digits sequence, e.g. 2025001234, 2026001234)
+- Nombre del Aspirante
+- CURP
+- Municipio
+- Estatus (colored label matching card colors)
+- Fecha de solicitud
+
+ACTION COLUMN:
+- Only ONE action per row
+- Text button: "Revisar detalle"
+- Avoid multiple icons
+
+UX PRINCIPLES (VERY IMPORTANT)
+- Reduce cognitive load
+- Avoid icon overload
+- Prioritize recognition over memory
+- Show clear status visibility
+- Keep interaction simple and linear
+
+VISUAL DETAILS
+- Table headers in maroon
+- Subtle dividers in gray
+- Soft shadows and rounded corners
+- Clean modern government dashboard look
+
+The final UI should feel simple, structured, and efficient for administrative work.

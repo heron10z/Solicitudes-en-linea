@@ -1,0 +1,91 @@
+Create a clean and structured detail screen UI for a government system:
+
+“Sistema de Validación de Solicitudes de Educadores Comunitarios”
+
+This screen appears after the user clicks "Revisar detalle" from the dashboard.
+
+USER CONTEXT
+The user is a 45-year-old validator with low-to-moderate digital skills.
+The interface must be extremely clear, linear, and easy to scan.
+
+GOAL OF THIS SCREEN
+Allow the user to:
+- Understand the applicant information
+- See current status clearly
+- Access documents
+- Take a decision
+
+VISUAL STYLE
+- Minimalist design
+- White background
+- Institutional maroon as primary color
+- Neutral gray separators
+- Typography: Montserrat / Open Sans
+- Clear hierarchy and spacing
+
+HEADER
+- Same as dashboard (consistency)
+- Include breadcrumb:
+  "Gestión de Solicitudes > Detalle de Solicitud"
+
+MAIN STRUCTURE (VERTICAL LAYOUT)
+
+SECTION 1: STATUS AND SUMMARY (VERY IMPORTANT)
+- Large status label (e.g. "En espera")
+- Use soft colored background based on status
+- Show:
+  - Fecha de solicitud
+  - Última actualización
+
+SECTION 2: DATOS DEL ASPIRANTE
+Use a card layout with clear labels:
+
+- Nombre completo
+- CURP
+- Municipio
+- Teléfono
+- Correo electrónico
+
+Design:
+- Two-column layout
+- High spacing
+- Labels in gray, values in darker text
+
+SECTION 3: DOCUMENTOS
+- List of uploaded documents
+- Each item:
+  - Document name
+  - Status (e.g. "Cargado", "Pendiente")
+  - Button: "Ver documento"
+
+Avoid icons, use text buttons.
+
+SECTION 4: ACCIONES DISPONIBLES (CRITICAL UX PART)
+
+Show ONLY actions allowed based on status:
+
+Example for "En espera":
+- Button: "Validar"
+- Button: "Rechazar"
+
+Buttons:
+- Primary (Validar): maroon background
+- Secondary (Rechazar): gray or outlined red
+
+IMPORTANT:
+- Clear separation from other sections
+- No clutter
+
+SECTION 5: HISTORIAL DE ACCIONES
+- Timeline or simple list:
+  - Fecha
+  - Acción realizada
+  - Usuario
+
+UX PRINCIPLES
+- Recognition over recall
+- Clear visual hierarchy
+- No unnecessary icons
+- Logical top-down flow
+
+The screen must feel structured, predictable, and easy to use for administrative validation tasks.
