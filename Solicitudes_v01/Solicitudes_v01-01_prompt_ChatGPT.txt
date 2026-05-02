@@ -1,0 +1,27 @@
+Con base en el documento principal que te comparto en PDF y el documento de word que es la protopoersona propuesta para el primer documento, genera un prompt para generar los primeros mockups en V0 usando la siguiente guía:
+Propuesta de Mockups (Dashboard Principal)
+Siguiendo la Guía de Identidad Gráfica del Gobierno de México, el enfoque será la limpieza visual, el alto contraste y el uso estratégico del color guinda para no saturar al usuario y reducir su carga cognitiva.
+Estructura del Dashboard: "Gestión de Solicitudes"
+A. Encabezado (Header):
+Fondo: Blanco puro.
+Logotipo: Identidad oficial (Gobierno de México) en la esquina superior izquierda.
+Tipografía: GMX (u homóloga oficial como Montserrat/Open Sans) en pesos Bold para títulos y Regular para textos.
+Perfil: Icono de usuario simple con el nombre del validador a la derecha.
+B. Resumen de Estatus (Tarjetas de Indicadores): En lugar de una lista saturada, se presentan 4 o 5 tarjetas horizontales en la parte superior para visibilidad inmediata del estado del sistema:
+En espera: Borde gris claro, número en guinda.
+Notificadas: Borde azul institucional.
+Validadas: Borde verde oscuro.
+Aceptadas/Rechazadas: Borde dorado o gris oscuro.
+Nota: Estas tarjetas funcionan como filtros rápidos al hacer clic.
+C. Sección de Filtros (Consistencia y Estándares):
+Un contenedor claro con campos de texto definidos para: Folio, Nombre, CURP y un Dropdown para Estatus.
+Botón de "Buscar": Fondo guinda institucional con texto blanco, bordes ligeramente redondeados.
+D. Tabla de Solicitudes (Listado):
+Diseño: Filas con mucho espacio en blanco (padding) para facilitar la lectura.
+Columnas: Folio | Nombre del Aspirante | CURP | Estatus (con etiqueta de color sutil) | Fecha de última acción.
+Acción Única: En lugar de múltiples iconos confusos, se utiliza un solo botón o enlace de texto que diga "Revisar Detalle". Esto reduce la carga cognitiva y guía al usuario al siguiente paso lógico del modelo mental: Seleccionar solicitud → Revisar.
+Estilo Visual y Colorimetría:
+Color Primario (Guinda): Solo para botones de acción principal, encabezados de tabla o alertas críticas.
+Color Secundario (Dorado/Gris): Para elementos de acento y división.
+Espacios: Se prioriza el espacio en blanco para que el personal con baja afinidad tecnológica pueda identificar rápidamente dónde debe hacer clic, evitando la "ceguera por saturación".
+Tipografía: Títulos en 18px-20px para jerarquía clara; cuerpo de texto en 14px-16px para legibilidad óptima.
